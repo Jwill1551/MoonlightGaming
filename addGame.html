@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/SASS/stlye.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/gameovercre" rel="stylesheet">
+    <title>Add Game 🕹 | Game Information</title>
+</head>
+<body>
+    <nav>
+        <div id="navBar">
+            <input type="button" value="Menu" id="mainBtn">
+            <ul id="navMenu">
+                <li class="nav-items"><a href="index.html">Home</a></li>
+                <li class="nav-items"><a href="addGame.html">Add Game</a></li>
+                <li class="nav-items"><a href="login.html">Login</a></li>
+                <li class="nav-items"><a href="register.html">Register</a></li>
+            </ul>
+            <img src="src/assets/icons/Revised Moonlight Logo.png" width="140px" alt="">
+        </div>
+    </nav>
+    
+    <div id="sideMenu">
+        <input type="button" value="Neon" class="menuBtn" id="neonBtn">
+        <input type="button" value="Hide" class="menuBtn" id="hideBtn">
+        <input type="button" value="Solid" class="menuBtn" id="solidBtn">
+        <input type="button" value="Reset" class="menuBtn" id="resetBtn">
+    </div>
+
+    <h1 id="other-title"> Please Add A Game Below: </h1>
+    
+    <div id="user-box">
+        <form action="">
+            <div id="user-form">
+                Name: <input type="text"> <br>
+                Publisher: <input type="text"> <br>
+                Platform: <input type="text"> <br>
+                Price: <input type="text"> <br>
+                Release Date: <input type="text"> <br>
+                Description: <input type="text" id="desc-box"> <br>
+            </div>
+                <input type="button" value="Add Game" id="submitBtn">
+        </form>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.js"
+    integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+    crossorigin="anonymous"></script>
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>
